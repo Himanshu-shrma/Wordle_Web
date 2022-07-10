@@ -26,7 +26,7 @@ def main():
         print("\n\t\tHurray!! You Guessed the Word !!")
     else:
         print(Fore.RED+"\n\t\tYou Failed to Guess the word !!\n"+ Fore.RESET)
-    print("\n\t\tCorrect Word is ", Fore.GREEN+wordle.secret+Fore.RESET)
+    print("\n\t\tCorrect Word is ", Fore.GREEN+wordle.secret+Fore.RESET,"\n\n")
 
 def load_word_set(path: str):
     word_set=set()
